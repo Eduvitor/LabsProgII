@@ -1,0 +1,3 @@
+#nao enviar node modulos para o git
+node_modules/
+index2.js

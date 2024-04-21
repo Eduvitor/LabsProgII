@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Agenda UFFS</title>
+    <style>
+        .colorContainer {
+            background-color: #00693e;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container-xl colorContainer border">
+        <div class="row justify-content-between">
+            <div class="col-md-2 col-sm-6 color">
+                <img src="/Imagens/logoUFFS.png" alt="LogoUFFS">
+            </div>
+            <div class="col-md-10 text-right col-sm-6">
+                <button class="btn btn-dark">Dark</button>
+                <button class="btn btn-light">Light</button>
+            </div>
+        </div>
+        <div class="col justify-content-xcenter">
+            <div class="col-md-12 text-center">
+                <h1>Bem vindo a agenda de horários da UFFS</h1>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border colorCon">
+        <div class="row">
+            <header class="row">
+                <div class="col-md-4 border">
+                    <h2 class="cc">Ciência da computação</h2>
+                    <p class="curInfo"><strong>Semestre: </strong> 2024/1</p>
+                    <p class="curInfo"><strong>Turno:</strong> Noturno</p>
+                    <p class="curInfo"><strong>Coordenação:</strong> cc.uffs.edu.br</p>
+                    <button class="btn btn-info" id="CC">Ver horários</button>
+                </div>
+                <!--SEGUNDO CURSO-->
+                <div class="col-md-4 border">
+                    <h2 class="hh">História</h2>
+                    <p class="curInfo"><strong>Semestre: </strong> 2024/1</p>
+                    <p class="curInfo"><strong>Turno:</strong> Noturno</p>
+                    <p class="curInfo"><strong>Coordenação:</strong> historia.uffs.edu.br</p>
+                    <button class="btn btn-info" id="HIS">Ver horários</button>
+                </div>
+                <!--Terceiro curso-->
+                <div class="col-md-4 border">
+                    <h2 class="mm">Medicina</h2>
+                    <p class="curInfo"><strong>Semestre: </strong> 2024/1</p>
+                    <p class="curInfo"><strong>Turno:</strong> Integral</p>
+                    <p class="curInfo"><strong>Coordenação:</strong> medicina.uffs.edu.br</p>
+                    <button class="btn btn-info" id="MED">Ver horários</button>
+                </div>
+                <!--Div onde irá ser mostrada os horarios dos cursos-->
+            </header>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <table class="table table-striped table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Horários</th>
+                <th scope="col">Segunda</th>
+                <th scope="col">Terça</th>
+                <th scope="col">Quarta</th>
+                <th scope="col">Quinta</th>
+                <th scope="col">Sexta</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">07:30</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">10:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">13:30</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">16:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">19:10</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <th scope="row">21:00</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/3c821a8c3a.js" crossorigin="anonymous"></script>
+  </body>
+</html>
