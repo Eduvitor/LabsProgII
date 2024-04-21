@@ -1,7 +1,8 @@
 const express = require('express');
 const db = require('./database.js');
 const database = require('./database.js');
-
+const path = require('path');
+app.use(express.static('public'))
 
 console.log(db.cursos[0].id);
 
@@ -11,6 +12,11 @@ const app = express();
 app.use(express.json());
 
 app.listen(3301, () => console.log("Servidor Rodando na porta 3301"));
+
+
+app.get("/index", (req, res) =>{
+    res.sendFile(path.resolve(__dirname, 'public/index.html'));
+});
 
 //mostra os cursos
 app.get("/cursos", (req, res)=>{
