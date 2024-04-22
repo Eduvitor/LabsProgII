@@ -2,7 +2,6 @@ const express = require('express');
 const db = require('./database.js');
 const database = require('./database.js');
 const path = require('path');
-app.use(express.static('public'))
 
 console.log(db.cursos[0].id);
 
@@ -10,7 +9,7 @@ console.log(db.cursos[0].id);
 const app = express();
 
 app.use(express.json());
-
+app.use(express.static('public'));
 app.listen(3301, () => console.log("Servidor Rodando na porta 3301"));
 
 
